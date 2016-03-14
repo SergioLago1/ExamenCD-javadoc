@@ -8,7 +8,7 @@ package libretacontactos;
 /**
  *Nos permite crear contactos.
  * libreta.
- * @author Pablite5
+ * @author slagogonzalez
  */
 public class Contacto {
     public static int ncontactos=1;

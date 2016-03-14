@@ -9,7 +9,8 @@ package libretacontactos;
 /**
  * Aquí solo encontramos getters y setters.
  * Permite agrupar los contactos en grupos.
- * @author Pablite5
+ * @author Slagogonzalez
+ * 
  */
 public class Grupo {
     private String nombre;

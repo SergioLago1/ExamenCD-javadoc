@@ -6,7 +6,7 @@
 package libretacontactos;
 
 /**
- *Nos permite crear contactos que son los objetos más pequeños de la aplicación para trabajar con ellos desde la clase
+ *Nos permite crear contactos.
  * libreta.
  * @author Pablite5
  */
@@ -28,7 +28,7 @@ public class Contacto {
         this.apellidos=apellidos;
         ncontactos++;
     }
-    
+    /**Aquí tenemos los getters y setters*/
     public int getId(){
         return id;
     }

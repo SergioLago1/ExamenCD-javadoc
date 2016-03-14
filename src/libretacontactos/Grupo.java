@@ -7,7 +7,7 @@ package libretacontactos;
 
 
 /**
- *No dispone de métodos funcionales para la aplicación, los únicos métodos que tiene son getters y setters.
+ * Aquí solo encontramos getters y setters.
  * Permite agrupar los contactos en grupos.
  * @author Pablite5
  */

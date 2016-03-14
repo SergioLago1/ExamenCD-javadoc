@@ -18,7 +18,7 @@ public class MiApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Libreta libreta = new Libreta();
+        Libreta libreta = new Libreta();/**creamos un nuevo objeto libreta*/
         boolean condicion = true;
         do{
         int seleccion = Integer.parseInt(JOptionPane.showInputDialog("1)Engadir contacto\n2)Listar contactos\n3)Borrar contacto\n5)Crear grupo\n6)Añadir contacto a grupo\n7)Salir"));

@@ -42,7 +42,7 @@ public class Libreta {
     }
     
     /**
-     * crea un contacto y lo añade a la libreta.
+     * creamos un nuevo contacto que a su vez lo añadiremos a libreta.
      */
     public void engadir(){
         boolean libretaLlena=true;
@@ -61,7 +61,7 @@ public class Libreta {
     }
     
     /**
-     * Muestra los contactos de la libreta
+     * Visualizamos los contactos que contiene libreta.
      */
     public void listar(){
         String cadena="";
@@ -74,7 +74,7 @@ public class Libreta {
     }
     
     /**
-     * Permite borrar contactos de la libreta a partir de su id
+     * En este método podemos borrar contactos.
      */
     public void borrar(){
         boolean notFound = true;
@@ -94,7 +94,7 @@ public class Libreta {
     }
     
     /**
-     * Permite crear un grupo de contactos vacío.
+     * En este método podemos crear un grupo de contactos.
      */
     public void crearGrupo(){
         boolean grupoLleno = true;
@@ -113,7 +113,7 @@ public class Libreta {
     }
     
     /**
-     * Permite agregar un contacto a un grupo a partir del id del contacto y el nombre del grupo.
+     * Con este método podemos añadir contactos al grupo.
      */
     public void agregarAGrupo(){
         boolean contactoEncontrado = false ,grupoEncontrado = false;
